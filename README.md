@@ -92,7 +92,7 @@ If retrieval fails, the system **fails safely** instead of hallucinating.
 
 ## Setup Instructions
 
-### 1️⃣ Clone Repository
+1️⃣ Clone Repository
 ```bash
 git clone https://github.com/<your-username>/enterprise-rag-system.git
 cd enterprise-rag-system
@@ -120,6 +120,8 @@ Who approves remote work requests?
 If the information is not present:
 Information not available.
 
+---
+
 ## Example Use Case
 
 This system can be used for:
@@ -128,7 +130,9 @@ Internal onboarding assistance
 Compliance documentation lookup
 Offline enterprise knowledge systems
 
-##Why a Small Local LLM?
+---
+
+## Why a Small Local LLM?
 
 TinyLlama was intentionally chosen to:
 Validate retrieval quality
@@ -136,8 +140,9 @@ Avoid masking poor retrieval with large model capabilities
 Keep the system fully local and cost-free
 If the RAG pipeline works with a small model, it will work with larger models as well.
 
+---
 
-##Future Improvements
+## Future Improvements
 
 Hybrid retrieval (BM25 + FAISS)
 Retrieval evaluation metrics (Precision@K, Recall@K)
